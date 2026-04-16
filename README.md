@@ -19,11 +19,3 @@ Pure HTML, CSS, and vanilla JS — no build step. Hosted on GitHub Pages.
 │   └── img/profile.jpg
 └── README.md
 ```
-
-## Local preview
-
-Open `index.html` directly in a browser, or serve the folder:
-
-```bash
-python -m http.server 8000
-```
