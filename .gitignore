@@ -1,0 +1,13 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Claude Code local settings
+.claude/
+
+# Build / deps (in case of future tooling)
+node_modules/
+dist/
+.cache/

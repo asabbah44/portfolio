@@ -1,486 +1,509 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="icon" href="img/favicon.png" type="image/png">
-        <title>MeetMe Personal</title>
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="css/bootstrap.css">
-        <link rel="stylesheet" href="vendors/linericon/style.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
-        <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
-        <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css">
-        <link rel="stylesheet" href="vendors/animate-css/animate.css">
-        <link rel="stylesheet" href="vendors/popup/magnific-popup.css">
-        <link rel="stylesheet" href="vendors/flaticon/flaticon.css">
-        <!-- main css -->
-        <link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/responsive.css">
-	
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Ahmed Sabbah — Lecturer, PhD candidate, and Software Engineer. Research in mobile malware analysis, machine learning, and cybersecurity.">
+    <meta name="author" content="Ahmed Sabbah">
+    <meta name="theme-color" content="#0b1020">
 
-		<link href="fonts/css/all.css" rel="stylesheet"> <!--load all styles -->
-		<link href="fonts/css/fontawesome.css" rel="stylesheet">
-		<link href="fonts/css/brands.css" rel="stylesheet">
-		<link href="fonts/css/solid.css" rel="stylesheet">
-		
-    </head>
-    <body>
-        
-        <!--================Header Menu Area =================-->
-        <header class="header_area">
-            <div class="main_menu">
-            	<nav class="navbar navbar-expand-lg navbar-light">
-					<div class="container box_1620">
-						<!-- Brand and toggle get grouped for better mobile display -->
-						<a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
-							<ul class="nav navbar-nav menu_nav ml-auto">
-								<!--<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li> -->
-								
-							
-								
-							</ul>
-						</div> 
-					</div>
-            	</nav>
+    <title>Ahmed Sabbah — Software Engineer · Lecturer · Researcher</title>
+
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230b1020'/%3E%3Ctext x='50' y='66' font-size='52' text-anchor='middle' fill='%2358a6ff' font-family='Inter,Arial' font-weight='700'%3EAS%3C/text%3E%3C/svg%3E">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <!-- ========== Top Navigation ========== -->
+    <header class="nav">
+        <div class="container nav__inner">
+            <a href="#top" class="nav__brand">
+                <span class="nav__brand-mark">AS</span>
+                <span class="nav__brand-name">Ahmed Sabbah</span>
+            </a>
+            <nav class="nav__links" id="navLinks">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#research">Research</a>
+                <a href="#education">Education</a>
+                <a href="#training">Training</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <button class="nav__theme" id="themeToggle" aria-label="Toggle theme">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+            <button class="nav__burger" id="navBurger" aria-label="Open menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ========== Hero ========== -->
+    <section class="hero" id="top">
+        <div class="hero__bg" aria-hidden="true"></div>
+        <div class="container hero__inner">
+            <div class="hero__text">
+                <p class="hero__hello">Hello, I'm</p>
+                <h1 class="hero__name">Ahmed Sabbah</h1>
+                <h2 class="hero__roles">
+                    <span class="grad grad--blue">Software Engineer</span>
+                    <span class="dot">·</span>
+                    <span class="grad grad--gold">Lecturer</span>
+                    <span class="dot">·</span>
+                    <span class="grad grad--purple">Researcher</span>
+                </h2>
+                <p class="hero__lead">
+                    PhD candidate in Computer Science at Birzeit University. I build enterprise software for the public sector and research mobile malware detection using machine learning and concept-drift-aware models.
+                </p>
+                <div class="hero__cta">
+                    <a href="#contact" class="btn btn--primary"><i class="fa-solid fa-envelope"></i> Get in touch</a>
+                    <a href="#experience" class="btn btn--ghost"><i class="fa-solid fa-briefcase"></i> View experience</a>
+                </div>
+                <ul class="hero__meta">
+                    <li><i class="fa-solid fa-location-dot"></i> Ramallah, Palestine</li>
+                    <li><i class="fa-solid fa-phone"></i> +972 598 934 244</li>
+                    <li><i class="fa-solid fa-envelope"></i> asabbah44@gmail.com</li>
+                </ul>
+                <ul class="hero__socials">
+                    <li><a href="https://www.linkedin.com/in/ahmed-sabbah-148771a8" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    <li><a href="https://github.com/asabbah44" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://www.facebook.com/ahmed.f.sabbah" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="mailto:asabbah44@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a></li>
+                </ul>
             </div>
-        </header>
-        <!--================Header Menu Area =================-->
-        
-        <!--================Home Banner Area =================-->
-        <section class="home_banner_area">
-           	<div class="container box_1620">
-           		<div class="banner_inner d-flex align-items-center">
-					<div class="banner_content">
-						<div class="media">
-							<div class="d-flex">
-								<img src="img/personal.jpg" alt="">
-							</div>
-							<div class="media-body">
-								<div class="personal_text">
-									<h6>Hello Everybody, i am</h6>
-									<h3>Ahmed Sabbah</h3>
-									<h4>Software Engineer</h4>
-									<p>"No! Try not! Do or do not, there is no try" - Yoda</p>
-									<ul class="list basic_info">
-										<li><a href="#"><i class="lnr lnr-calendar-full"></i> Ahmed Sabbah</a></li>
-										<li><a href="#"><i class="lnr lnr-phone-handset"></i> +972-598934244</a></li>
-										<li><a href="#"><i class="lnr lnr-envelope"></i> Asabbah44@gmail.com</a></li>
-										<li><a href="#"><i class="lnr lnr-home"></i> Palestine</a></li>
-											<li><a href="#"><i class="fab fa-skype"></i>asabbah44</a></li>
-									</ul>
-									<ul class="list personal_social">
-										<li><a href="https://www.facebook.com/ahmed.f.sabbah"><i class="fab fa-facebook-f"></i></a></li>
-									
-										<li><a href="https://www.linkedin.com/in/ahmed-sabbah-148771a8"><i class="fab fa-linkedin-in"></i></a></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+            <div class="hero__photo">
+                <div class="hero__photo-glow" aria-hidden="true"></div>
+                <img src="assets/img/profile.jpg" alt="Portrait of Ahmed Sabbah">
+                <div class="hero__photo-badge"><i class="fa-solid fa-graduation-cap"></i> PhD Candidate · 2025</div>
             </div>
-        </section>
-        <!--================End Home Banner Area =================-->
-        
-        <!--================Welcome Area =================-->
-        <section class="welcome_area p_120">
-        	<div class="container">
-        		<div class="row welcome_inner">
-        			<div class="col-lg-6">
-        				<div class="welcome_text">
-        					<h4>About Myself</h4>
-        					<p>I completed master degree in software engineering from Birzeit university in 2021. I finished my bachelor's degree in computer science at Al-Najah University.</p>
-        					<div class="row">
-        						<div class="col-md-4">
-        							<div class="wel_item">
-        								<i class="lnr lnr-database"></i>
-        								<h4></h4>
-        								<p>Anlysis</p>
-        							</div>
-        						</div>
-        						<div class="col-md-4">
-        							<div class="wel_item">
-										<i class="fas fa-wrench"></i>
-        								<h4></h4>
-        								<p>Construction</p>
-        							</div>
-        						</div>
-        						<div class="col-md-4">
-        							<div class="wel_item">
-        								<i class="fas fa-check"></i>
-        								<h4></h4>
-        								<p>QA and Testing</p>
-        							</div>
-        						</div>
-        					</div>
-						</div>
-					</br>
-						<div class="row">
-							<div class="col-md-4">
-								<div class="wel_item">
-									<i class="fas fa-cogs"></i>
-									<h4></h4>
-									<p>Machine Learning</p>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="wel_item">
-									<i class="fas fa-brain"></i>
-									<h4></h4>
-									<p>Design Thinking</p>
-								</div>
-							</div>
-							
-						</div>
+        </div>
+    </section>
 
-        			</div>
-        			<div class="col-lg-6">
-        				<div class="tools_expert">
-        					<div class="skill_main">
-								<div class="skill_item">
-									<h4>Object Oriented</h4>
-									<div class="progress_br">
-										<div class="progress">
-											<div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-										</div>
-									</div>
-								</div>
-								<div class="skill_item">
-									<h4> C# , ASP.NET ,MVC, LINQ, Entity framework , Windows forms, ADO.NET </h4>
-									<div class="progress_br">
-										<div class="progress">
-											<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-										</div>
-									</div>
-								</div>
-								<div class="skill_item">
-									<h4>DataBase : Oracle,SQL Server, MySQL</h4>
-									<div class="progress_br">
-										<div class="progress">
-											<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-										</div>
-									</div>
-								</div>
-								<div class="skill_item">
-									<h4>Front End: HTML, JavaScript, CSS, Bootstrap </h4>
-									<div class="progress_br">
-										<div class="progress">
-											<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-										</div>
-									</div>
-								</div>
-								<div class="skill_item">
-									<h4>Python</h4>
-									<div class="progress_br">
-										<div class="progress">
-											<div class="progress-bar" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
-										</div>
-									</div>
-								</div>
-									<div class="skill_item">
-									<h4>Java </h4>
-									<div class="progress_br">
-										<div class="progress">
-											<div class="progress-bar" role="progressbar" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
-										</div>
-									</div>
-								</div>
-																	<div class="skill_item">
-									<h4>PHP</h4>
-									<div class="progress_br">
-										<div class="progress">
-											<div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-										</div>
-									</div>
-								</div>
-								
-								
-							</div>
-        				</div>
-        			</div>
-        		</div>
-        	</div>
-        </section>
-        <!--================End Welcome Area =================-->
-        
-        <!--================My Tabs Area =================-->
-        <section class="mytabs_area p_120">
-        	<div class="container">
-        		<div class="tabs_inner">
-					<ul class="nav nav-tabs" id="myTab" role="tablist">
-						<li class="nav-item">
-							<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">My Experiences</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">My Education</a>
-						</li>
-					</ul>
-					<div class="tab-content" id="myTabContent">
-						<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-							<ul class="list">
-								<li>
-									<span></span>
-									<div class="media">
-										<div class="d-flex">
-											<p>Jan-2019 to present </p>
-										</div>
-										<div class="media-body">
-											<h4>Ministry Of Interior</h4>
-											<p>Head of the Section<br/>Senior Developer <br />System Anlysis</p>
-										</div>
-									</div>
-								</li>
-								<li>
-									<span></span>
-									<div class="media">
-										<div class="d-flex">
-											<p>Sept-2017 to Dec-2019  </p>
-										</div>
-										<div class="media-body">
-											<h4>Water Sector Regulatory Council</h4>
-											<p>IT Consultant</p>
-										</div>
-									</div>
-								</li>
-								<li>
-								<span></span>
-									<div class="media">
-										<div class="d-flex">
-											<p>Jan-2014 to July-2015.</p>
-										</div>
-										<div class="media-body">
-											<h4>Palestinian Government media centre.</h4>
-											<p>Project Manager <br/> Part time</p>
-										</div>
-									</div>
-								</li>
-								<li>
-									<span></span>
-										<div class="media">
-											<div class="d-flex">
-												<p>Jun-2008 to Dec-2011.</p>
-											</div>
-											<div class="media-body">
-												<h4>Strategic Planning Department .</h4>
-												<p>Software Developer</p>
-											</div>
-										</div>
-									</li>
-							</ul>
-						</div>
-						<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-							<ul class="list">
-								<li>
-									<span></span>
-									<div class="media">
-										<div class="d-flex">
-											<p>Sept-2018 to present</p>
-										</div>
-										<div class="media-body">
-											<h4>Software Engineering</h4>
-											<p>Master <br />Birzeit University</p>
-										</div>
-									</div>
-								</li>
-								<li>
-									<span></span>
-									<div class="media">
-										<div class="d-flex">
-											<p>Sept-2004 to May-2008</p>
-										</div>
-										<div class="media-body">
-											<h4>Computer Science</h4>
-											<p>Bachelor's <br />An-Najah National University </p>
-										</div>
-									</div>
-								</li>
-								
-							</ul>
-						</div>
-					</div>
-        		</div>
-        	</div>
-        </section>
-        <!--================End My Tabs Area =================-->
-        
-        <!--================Feature Area =================-->
-        <section class="feature_area p_120">
-        	<div class="container">
-        		<div class="main_title">
-        			<h2>CAREER HISTORY</h2>
-        			
-        		</div>
-        		<div class="feature_inner row">
-        			<div class="col-lg-12 col-md-12">
-        				<div class="feature_item">
-							<h4>IT Consultant</h4>
-							<a href="http://wsrc.ps"><h5>Water Sector Regulatory Council</h5></a>
-        					<p>Working with all WSRC departments in providing essential IT and MIS solutions that facilitate the achievement of the WSRC objectives.
-								 The main task of the Consultant is to facilitate the use of the WSRC database(<a href="http://wris.wsrc.ps/">Water Regulatory Information System </a>) by water and wastewater service providers in the West Bank and the Gaza Strip.</p>	
-								
-        				</div>
-        			</div>
-				</div>
-				<br/>
-				<div class="feature_inner row">
-						<div class="col-lg-12 col-md-12">
-							<div class="feature_item">
-								<h4>Head of the Programming and Analysis Section</h4>
-								<a href="http://moi.pna.ps"><h5>Palestinian Ministry of Interior</h5></a>
-								<p>
-								<ul class="media-body">
-									<li>I working on the HR system, that customize for our organization, is developing using ASP.NET MVC with oracle database, I used ORM (ADP.NET) methodology for dealing with database, the system connects with the fingerprint watch and collect the attendance for the employees, the employees can request the vacation and get accepted depending on dynamic workflow defined by the administrator of system, and  thay can see the own timesheets and print a reports.  </li>
-									<li>I developed a Warehouse management system, that manages all orders for the employees and manages all internal action for tow types of products, the first the consumer product such as paper and pain...etc, and the second type of products are assets such as table and computer and so on. The system supports the barcode system, it can generate the serail of barcode for each product. </li>
-									<li>I developed an Archiving System for the General administration of Civil Status and Passport, The system works in all the regional offices in the West Bank cities. I use C# Application forms, Click one published, Asp.net for reports, TWAIN to read from scanner and Oracle Database. I modified and customized the system using ADO.NET, Entity framework and LINQ to issue two Archiving Systems for the Finance Department and the Council of the Ministry to archive the inbox and outbox documents.</li>
-									<li>I developed Imaging program for the General Administration of Civil Status and Passport. The system scans document that has personal picture crop, resize and store in the database to print on the passport or on the personal identity. I use C# application with Oracle database, TWAIN, ADO.NET and Entity framework with a lot of validation on the passport or personal identity stages in the database.</li>
-									
-								</ul>
-								</p>
-									
-							</div>
-						</div>
-					</div>
-					<div class="feature_inner row">
-						<div class="col-lg-12 col-md-12">
-							<div class="feature_item">
-								<h4>Project Manager</h4>
-								<a href="#"><h5>Palestinian Government Media Centre</h5></a>
-								<p>I worked as a team leader with two programmers to achieve documents management and archiving system, I was responsible for the project, Analysis of the system, Database, Creation and design, the system internal portal work on local network in the centre. It consists of more than one module, DMS with workflow, employees information and archive of employee’s documents, Projects information, Budget and payments, archiving all documents about each project, Creation of different reports as Palestinian Daily Report, Government Relations, Statement of the Council of Ministers, Media agenda, Column Writers and others. I used with my team ASP.NET web forms, C# behind code, SQLSERVER 2012 for database, Entity framework 6.1, LINQ.  </p>	
-									
-							</div>
-						</div>
-					</div>
+    <!-- ========== About ========== -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="section__head">
+                <span class="eyebrow">About</span>
+                <h2 class="section__title">A bridge between industry and academia</h2>
+            </div>
+            <div class="about__grid">
+                <div class="about__lead">
+                    <p>
+                        IT Consultant and software engineer with over 15 years of experience designing enterprise systems for government and the private sector — from HR and warehouse platforms to civil-status archiving and biometric integrations across the West Bank.
+                    </p>
+                    <p>
+                        Since 2021, I've taught Computer Science at Birzeit University, mentoring undergraduates in programming, software engineering, mobile development, and data science. My PhD research focuses on <strong>mobile malware analysis</strong>, applying machine learning, deep learning, and reinforcement learning to handle <strong>concept drift</strong> in evolving Android malware families.
+                    </p>
+                </div>
+                <div class="about__stats">
+                    <div class="stat"><span class="stat__num">15+</span><span class="stat__label">Years in software</span></div>
+                    <div class="stat"><span class="stat__num">4+</span><span class="stat__label">Years teaching</span></div>
+                    <div class="stat"><span class="stat__num">4+</span><span class="stat__label">Years research</span></div>
+                    <div class="stat"><span class="stat__num">3</span><span class="stat__label">Academic degrees</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-					<div class="feature_inner row">
-						<div class="col-lg-12 col-md-12">
-							<div class="feature_item">
-								<h4>Software Developer </h4>
-								<a href="#"><h5>Strategic Planning department</h5></a>
-								<ul>	
-									<li>I developed employee's timesheet management system, that includes presence, departure, vacations. It can generate reports, I used C# application, Microsoft ACCESS database.</li>
-									<li>I developed meeting management system. The system can store data about meetings, number of members, time and day, documents needed, meetings result, and other information. I used C# application and Microsoft ACCESS database. </li>
-									<li>I worked as part of a team at the SPD to developed task management system with workflow. The system can use for archive and search for documents. We used ASP.NET, SQLSERVER2008.  </li>
-								</ul>
+    <!-- ========== Skills ========== -->
+    <section class="section section--alt" id="skills">
+        <div class="container">
+            <div class="section__head">
+                <span class="eyebrow">Skills</span>
+                <h2 class="section__title">A dual stack: engineering &amp; research</h2>
+                <p class="section__sub">Production engineering on the left, research and academia on the right — both feed into how I solve problems.</p>
+            </div>
 
-									
-							</div>
-						</div>
-					</div>
+            <div class="skills__grid">
+                <div class="skill-card">
+                    <div class="skill-card__head">
+                        <i class="fa-solid fa-code"></i>
+                        <h3>Software Development</h3>
+                    </div>
+                    <ul class="chips">
+                        <li>C# / .NET</li>
+                        <li>ASP.NET MVC</li>
+                        <li>Entity Framework</li>
+                        <li>LINQ / ADO.NET</li>
+                        <li>Web Services</li>
+                        <li>Windows Forms</li>
+                        <li>JavaScript</li>
+                        <li>HTML / CSS</li>
+                        <li>Bootstrap</li>
+                        <li>Java</li>
+                        <li>PHP</li>
+                        <li>Android (Native)</li>
+                        <li>Git</li>
+                    </ul>
+                </div>
 
-        	</div>
-        </section>
-        <!--================End Feature Area =================-->
-        
-        <!--================Home Gallery Area =================-->
-        <section class="home_gallery_area p_120">
-        	<div class="container">
-        		<div class="main_title">
-        			<h2>Our Latest Featured Projects</h2>
-        			<p></p>
-        		</div>
-        		
-        	</div>
-        	<div class="container">
-        		<div class="gallery_f_inner row imageGallery1">
-        			<div class="col-lg-4 col-md-4 col-sm-6 brand manipul design print">
-        				<div class="h_gallery_item">
-        					<div class="g_img_item">
-        						<img class="img-fluid" src="img/gallery/hr.jpg" alt="">
-        						<a class="light" href="img/gallery/hr.jpg"><img src="img/gallery/icon.png" alt=""></a>
-        					</div>
-        					<div class="g_item_text">
-        						<h4>HR System</h4>
-        						<p> </p>
-        					</div>
-        				</div>
-        			</div>
-        			<div class="col-lg-4 col-md-4 col-sm-6 brand manipul creative">
-        				<div class="h_gallery_item">
-        					<div class="g_img_item">
-        						<img class="img-fluid" src="img/gallery/dms.jpg" alt="">
-        						<a class="light" href="img/gallery/dms"><img src="img/gallery/icon.png" alt=""></a>
-        					</div>
-        					<div class="g_item_text">
-        						<h4>Document Managment System</h4>
-        						<p></p>
-        					</div>
-        				</div>
-        			</div>
-        			<div class="col-lg-4 col-md-4 col-sm-6 manipul creative design print">
-        				<div class="h_gallery_item">
-        					<div class="g_img_item">
-        						<img class="img-fluid" src="img/gallery/SS.jpg" alt="">
-        						<a class="light" href="img/gallery/SS.jpg"><img src="img/gallery/icon.png" alt=""></a>
-        					</div>
-        					<div class="g_item_text">
-        						<h4>Warehouse Management System</h4>
-        						<p></p>
-        					</div>
-        				</div>
-        			</div>
-        			
-        			
-        	</div>
-        </section>
-        <!--================End Home Gallery Area =================-->
-        
-        <!--================Testimonials Area =================-->
+                <div class="skill-card">
+                    <div class="skill-card__head">
+                        <i class="fa-solid fa-database"></i>
+                        <h3>Data &amp; Databases</h3>
+                    </div>
+                    <ul class="chips">
+                        <li>Oracle 11g (OCA)</li>
+                        <li>SQL Server</li>
+                        <li>MySQL</li>
+                        <li>MS Access</li>
+                        <li>PL/SQL</li>
+                        <li>Data Visualization</li>
+                        <li>Pandas / NumPy</li>
+                        <li>Data Analysis</li>
+                    </ul>
+                </div>
 
-        <!--================End Testimonials Area =================-->
-        
-        <!--================Footer Area =================-->
-        <footer class="footer_area p_120">
-        	<div class="container">
-        		<div class="row footer_inner">
-        			<div class="col-lg-5 col-sm-6">
-        				<aside class="f_widget ab_widget">
-        					<div class="f_title">
-        						<h3>About Me</h3>
-        					</div>
-        					<p>Do you want to be even more successful? Learn to love learning and growth. The more effort you put into improving your skills,</p>
-        					<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script><a>Ahmed Sabbah</a> 
+                <div class="skill-card">
+                    <div class="skill-card__head">
+                        <i class="fa-solid fa-brain"></i>
+                        <h3>ML, DL &amp; Research</h3>
+                    </div>
+                    <ul class="chips">
+                        <li>Python</li>
+                        <li>Scikit-learn</li>
+                        <li>TensorFlow / Keras</li>
+                        <li>PyTorch</li>
+                        <li>Deep Learning</li>
+                        <li>Reinforcement Learning</li>
+                        <li>NLP</li>
+                        <li>BERT</li>
+                        <li>Word2Vec / FastText</li>
+                        <li>Concept Drift</li>
+                    </ul>
+                </div>
 
-        				</aside>
-        			</div>
-        		
-        			
-        		</div>
-        	</div>
-        </footer>
-        <!--================End Footer Area =================-->
-        
-        
-        
-        
-        
-        
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="js/jquery-3.7.1.min.js"></script>
-        <script src="js/popper.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/stellar.js"></script>
-        <script src="vendors/lightbox/simpleLightbox.min.js"></script>
-        <script src="vendors/nice-select/js/jquery.nice-select.min.js"></script>
-        <script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
-        <script src="vendors/isotope/isotope.pkgd.min.js"></script>
-        <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
-        <script src="vendors/popup/jquery.magnific-popup.min.js"></script>
-        <script src="js/jquery.ajaxchimp.min.js"></script>
-        <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
-        <script src="vendors/counter-up/jquery.counterup.min.js"></script>
-        <script src="js/mail-script.js"></script>
-        <script src="js/theme.js"></script>
-    </body>
+                <div class="skill-card">
+                    <div class="skill-card__head">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        <h3>Cybersecurity &amp; IT</h3>
+                    </div>
+                    <ul class="chips">
+                        <li>Mobile Malware Analysis</li>
+                        <li>Android Security</li>
+                        <li>Static / Dynamic Analysis</li>
+                        <li>Incident Response</li>
+                        <li>IT Risk Management</li>
+                        <li>Cybersecurity Audit</li>
+                        <li>Revenue Assurance</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-card__head">
+                        <i class="fa-solid fa-chalkboard-user"></i>
+                        <h3>Academia &amp; Teaching</h3>
+                    </div>
+                    <ul class="chips">
+                        <li>Lecturing</li>
+                        <li>Curriculum Design</li>
+                        <li>Software Engineering</li>
+                        <li>Programming &amp; Ethics</li>
+                        <li>Mobile Development</li>
+                        <li>Data Science</li>
+                        <li>Research Writing</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-card__head">
+                        <i class="fa-solid fa-people-group"></i>
+                        <h3>Consulting &amp; Soft Skills</h3>
+                    </div>
+                    <ul class="chips">
+                        <li>System Analysis</li>
+                        <li>Project Management</li>
+                        <li>IT Consulting</li>
+                        <li>Stakeholder Communication</li>
+                        <li>Problem Solving</li>
+                        <li>Cross-team Collaboration</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== Experience ========== -->
+    <section class="section" id="experience">
+        <div class="container">
+            <div class="section__head">
+                <span class="eyebrow">Experience</span>
+                <h2 class="section__title">Career timeline</h2>
+                <p class="section__sub">From government enterprise systems to consulting and academia — 15+ years across the stack.</p>
+            </div>
+
+            <ol class="timeline">
+                <li class="timeline__item">
+                    <div class="timeline__date">09/2021 — Present</div>
+                    <div class="timeline__card">
+                        <div class="timeline__role">
+                            <h3>Lecturer, Computer Science</h3>
+                            <span class="org">Birzeit University · Ramallah</span>
+                        </div>
+                        <ul>
+                            <li>Teach undergraduate programming &amp; ethics, including C and pseudocode foundations.</li>
+                            <li>Deliver Software Engineering, Mobile Development (native Android), and Data Science / Analysis (Python).</li>
+                            <li>Guide hands-on labs with real-world datasets and supervise project work.</li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="timeline__item">
+                    <div class="timeline__date">01/2019 — Present</div>
+                    <div class="timeline__card">
+                        <div class="timeline__role">
+                            <h3>Software Engineer · Full Time</h3>
+                            <span class="org">Palestinian Ministry of Interior</span>
+                        </div>
+                        <ul>
+                            <li>Built customized HR system on ASP.NET MVC + Oracle, with fingerprint-based attendance and dynamic vacation workflows.</li>
+                            <li>Designed inter-ministry integration linking hospitals, MoI, and Ministry of Health for birth and death registration.</li>
+                            <li>Contributed to the online company registration system for the Ministry of National Economy.</li>
+                            <li>Stack: ASP.NET MVC, Oracle, ADO.NET, Entity Framework, web services, Git.</li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="timeline__item">
+                    <div class="timeline__date">08/2023 — 03/2024</div>
+                    <div class="timeline__card">
+                        <div class="timeline__role">
+                            <h3>ICT Consultant</h3>
+                            <span class="org">Ooredoo · Ramallah</span>
+                        </div>
+                        <ul>
+                            <li>Documented IT service processes; conducted Revenue Cycle Management assessment.</li>
+                            <li>Delivered Revenue Assurance and Fraud Management assessment, partnering with stakeholders to identify IT-driven process improvements.</li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="timeline__item">
+                    <div class="timeline__date">01/2023 — 04/2023</div>
+                    <div class="timeline__card">
+                        <div class="timeline__role">
+                            <h3>ICT Consultant</h3>
+                            <span class="org">Ministry of Health · Ramallah</span>
+                        </div>
+                        <ul>
+                            <li>Conducted cybersecurity procedures assessment for MoH systems.</li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="timeline__item">
+                    <div class="timeline__date">09/2017 — 12/2018</div>
+                    <div class="timeline__card">
+                        <div class="timeline__role">
+                            <h3>IT Consultant · Full Time</h3>
+                            <span class="org">Water Sector Regulatory Council</span>
+                        </div>
+                        <ul>
+                            <li>Delivered IT and MIS solutions across all WSRC departments to support regulatory objectives.</li>
+                            <li>Built the system enabling water and wastewater service providers in the West Bank and Gaza to use the WSRC database.</li>
+                            <li>Stack: ASP.NET MVC, SQL Server.</li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="timeline__item">
+                    <div class="timeline__date">01/2011 — 09/2017</div>
+                    <div class="timeline__card">
+                        <div class="timeline__role">
+                            <h3>Head of the Programming Section · Full Time</h3>
+                            <span class="org">Palestinian Ministry of Interior</span>
+                        </div>
+                        <ul>
+                            <li>Developed warehouse management system with barcode generation for consumer products and assets.</li>
+                            <li>Built the archiving system for the General Administration of Civil Status and Passport, deployed across regional offices.</li>
+                            <li>Engineered an image-capture pipeline (TWAIN) to scan, crop, and store personal images for passports / IDs.</li>
+                            <li>Launched the news website for the Palestinian Mine Action Centre.</li>
+                            <li>Stack: C# WinForms, ASP.NET, Oracle, ADO.NET, Entity Framework.</li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="timeline__item">
+                    <div class="timeline__date">01/2014 — 07/2014</div>
+                    <div class="timeline__card">
+                        <div class="timeline__role">
+                            <h3>Project Manager · Part Time</h3>
+                            <span class="org">Palestinian Government Media Centre</span>
+                        </div>
+                        <ul>
+                            <li>Led a team of two developers building a document management &amp; archiving system with workflow.</li>
+                            <li>Owned analysis, design, and implementation across HR and project-management modules.</li>
+                        </ul>
+                    </div>
+                </li>
+
+                <li class="timeline__item">
+                    <div class="timeline__date">06/2008 — 12/2011</div>
+                    <div class="timeline__card">
+                        <div class="timeline__role">
+                            <h3>Software Developer</h3>
+                            <span class="org">Strategic Planning Department</span>
+                        </div>
+                        <ul>
+                            <li>Built attendance, vacation, and reporting systems in C# + MS Access.</li>
+                            <li>Created an agenda management system covering meetings, members, schedules, and documents.</li>
+                            <li>Co-developed a task management &amp; archiving platform on ASP.NET + SQL Server.</li>
+                        </ul>
+                    </div>
+                </li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- ========== Research ========== -->
+    <section class="section section--alt" id="research">
+        <div class="container">
+            <div class="section__head">
+                <span class="eyebrow">Research</span>
+                <h2 class="section__title">Active research interests</h2>
+                <p class="section__sub">Where security, software engineering, and machine learning intersect.</p>
+            </div>
+
+            <div class="research__grid">
+                <article class="research-card">
+                    <div class="research-card__icon"><i class="fa-solid fa-virus"></i></div>
+                    <h3>Mobile Malware Detection</h3>
+                    <p>4+ years researching Android malware analysis using ML &amp; DL pipelines, with a focus on <strong>concept drift</strong> in evolving malware families and emulator vs. real-device samples.</p>
+                    <ul class="chips chips--sm">
+                        <li>Android</li><li>Static / Dynamic</li><li>Concept Drift</li>
+                    </ul>
+                </article>
+
+                <article class="research-card">
+                    <div class="research-card__icon"><i class="fa-solid fa-network-wired"></i></div>
+                    <h3>Reinforcement Learning for Security</h3>
+                    <p>Designing RL pipelines and reward formulations for adaptive malware classification, where the threat distribution shifts over time.</p>
+                    <ul class="chips chips--sm">
+                        <li>Reinforcement Learning</li><li>Adaptive Models</li>
+                    </ul>
+                </article>
+
+                <article class="research-card">
+                    <div class="research-card__icon"><i class="fa-solid fa-language"></i></div>
+                    <h3>NLP for Software Quality</h3>
+                    <p>Prior work on identifying <strong>self-admitted technical debt</strong> from source-code comments using pre-trained models — BERT, FastText, Word2Vec — combined with classical ML and deep learning.</p>
+                    <ul class="chips chips--sm">
+                        <li>BERT</li><li>FastText</li><li>Word2Vec</li><li>SATD</li>
+                    </ul>
+                </article>
+
+                <article class="research-card">
+                    <div class="research-card__icon"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3>Cybersecurity &amp; Risk</h3>
+                    <p>Cybersecurity assessments for ministries and telecoms, incident response, IT risk management, and integration of secure software practices into government systems.</p>
+                    <ul class="chips chips--sm">
+                        <li>Audit</li><li>Incident Response</li><li>Governance</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== Education ========== -->
+    <section class="section" id="education">
+        <div class="container">
+            <div class="section__head">
+                <span class="eyebrow">Education</span>
+                <h2 class="section__title">Academic qualifications</h2>
+            </div>
+            <div class="edu__grid">
+                <article class="edu-card edu-card--featured">
+                    <div class="edu-card__year">Expected 12/2025</div>
+                    <h3>PhD · Computer Science</h3>
+                    <p class="edu-card__org">Birzeit University</p>
+                    <p class="edu-card__note">Dissertation focus: mobile malware detection under concept drift using ML, DL, and reinforcement learning.</p>
+                </article>
+                <article class="edu-card">
+                    <div class="edu-card__year">01/2021</div>
+                    <h3>M.Sc. · Software Engineering</h3>
+                    <p class="edu-card__org">Birzeit University · Ramallah</p>
+                </article>
+                <article class="edu-card">
+                    <div class="edu-card__year">01/2008</div>
+                    <h3>B.Sc. · Computer Science</h3>
+                    <p class="edu-card__org">Information Technology College · Nablus</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== Training ========== -->
+    <section class="section section--alt" id="training">
+        <div class="container">
+            <div class="section__head">
+                <span class="eyebrow">Training &amp; Certifications</span>
+                <h2 class="section__title">Continuous learning</h2>
+            </div>
+            <div class="training__grid">
+                <div class="training-item"><span class="training-item__year">2024</span><div><h4>Cybersecurity &amp; Information Countermeasures</h4><p>Global Security Initiative — seminar for developing countries</p></div></div>
+                <div class="training-item"><span class="training-item__year">2024</span><div><h4>Cybersecurity Fundamentals</h4><p>Expert Company</p></div></div>
+                <div class="training-item"><span class="training-item__year">2024</span><div><h4>Incident Response &amp; Management</h4><p>Expert Company</p></div></div>
+                <div class="training-item"><span class="training-item__year">2021</span><div><h4>CodeYourFuture Trainer (Volunteer)</h4><p>MENA Alliances trainers' team</p></div></div>
+                <div class="training-item"><span class="training-item__year">2019</span><div><h4>e-Governance Workshop</h4><p>e-Governance Academy Foundation, Estonia</p></div></div>
+                <div class="training-item"><span class="training-item__year">2015</span><div><h4>ASP.NET MVC (60h)</h4><p>Al-Quds Open University / ICTC Centre</p></div></div>
+                <div class="training-item"><span class="training-item__year">2014</span><div><h4>E-Government Training Program</h4><p>South Korea — 3 weeks</p></div></div>
+                <div class="training-item"><span class="training-item__year">2014</span><div><h4>Android Application Development</h4><p>MOICT Training Centre — 1 month</p></div></div>
+                <div class="training-item"><span class="training-item__year">2013</span><div><h4>SharePoint 2010 (60h)</h4><p>Steady Point Company</p></div></div>
+                <div class="training-item"><span class="training-item__year">2013</span><div><h4>Oracle 11g · Administration I (1Z0-052)</h4><p>Al-Quds Open University / ICTC — exam passed</p></div></div>
+                <div class="training-item"><span class="training-item__year">2012</span><div><h4>Oracle 11g · PL/SQL (1Z0-144)</h4><p>Exam passed</p></div></div>
+                <div class="training-item"><span class="training-item__year">2012</span><div><h4>Oracle SQL Fundamentals I (1Z0-051)</h4><p>Al-Quds Open University / ICTC — exam passed</p></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== Contact ========== -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section__head">
+                <span class="eyebrow">Contact</span>
+                <h2 class="section__title">Let's collaborate</h2>
+                <p class="section__sub">Open to research collaborations, consulting, and engineering work.</p>
+            </div>
+            <div class="contact__grid">
+                <a class="contact-card" href="mailto:asabbah44@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div><span>Email</span><strong>asabbah44@gmail.com</strong></div>
+                </a>
+                <a class="contact-card" href="tel:+972598934244">
+                    <i class="fa-solid fa-phone"></i>
+                    <div><span>Phone</span><strong>+972 598 934 244</strong></div>
+                </a>
+                <a class="contact-card" href="https://www.linkedin.com/in/ahmed-sabbah-148771a8" target="_blank" rel="noopener">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <div><span>LinkedIn</span><strong>ahmed-sabbah-148771a8</strong></div>
+                </a>
+                <div class="contact-card contact-card--static">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div><span>Location</span><strong>Ramallah, Palestine</strong></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== Footer ========== -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <p>&copy; <span id="year"></span> Ahmed Sabbah · Built with care.</p>
+            <ul class="footer__socials">
+                <li><a href="https://www.linkedin.com/in/ahmed-sabbah-148771a8" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <li><a href="https://github.com/asabbah44" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="mailto:asabbah44@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
 </html>
