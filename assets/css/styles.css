@@ -303,7 +303,7 @@ p { margin: 0 0 1rem; }
     aspect-ratio: 1;
 }
 .hero__photo img {
-    width: 100%;
+    width: 85%;
     height: 100%;
     border-radius: 28px;
     object-fit: cover;
