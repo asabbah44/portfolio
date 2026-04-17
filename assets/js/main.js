@@ -7,8 +7,7 @@ const themeIcon = themeToggle.querySelector('i');
 const root = document.documentElement;
 
 const stored = localStorage.getItem('theme');
-const prefersLight = window.matchMedia('(prefers-color-scheme: light)').matches;
-const initial = stored || (prefersLight ? 'light' : 'dark');
+const initial = stored || 'dark';
 applyTheme(initial);
 
 themeToggle.addEventListener('click', () => {
