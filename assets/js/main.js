@@ -53,7 +53,7 @@ sections.forEach(s => activeObserver.observe(s));
 
 // ===== Reveal on scroll =====
 const revealTargets = document.querySelectorAll(
-    '.section__head, .skill-card, .timeline__item, .research-card, .edu-card, .training-item, .contact-card, .stat, .about__lead, .pubs__head, .pub, .metric'
+    '.section__head, .skill-card, .timeline__item, .research-card, .edu-card, .training-item, .contact-card, .stat, .about__lead, .pub-list, .pub'
 );
 revealTargets.forEach(el => el.classList.add('reveal'));
 
